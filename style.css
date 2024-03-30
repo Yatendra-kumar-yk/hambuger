@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hum{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+.hum span{
+    position:absolute;
+    width: 80px;
+    height: 10px;
+    background-color: #000;
+    left: 0px;
+
+
+}
+.hum span::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 10px;
+    background: #3fbff9;
+    position: absolute;
+    top: -8px;
+    transition: .3s all;
+}
+.hum span::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 10px;
+    background: #3fbff9;
+    position: absolute;
+    top: 8px;
+    transition: .3s all;
+}

@@ -19,8 +19,8 @@ header{
 }
 .hum span{
     position:absolute;
-    width: 80px;
-    height: 10px;
+    width: 70px;
+    height: 5px;
     background-color: #000;
     left: 0px;
 

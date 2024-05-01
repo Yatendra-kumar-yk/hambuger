@@ -47,14 +47,14 @@ header{
     top: 8px;
     transition: .3s all;
 }
-.ham.change span{
+.hum.change span{
     position: absolute;    
     width:70px;
     height:5px;
     background: transparent;
     left: 0;   
 }
-.ham.change span::before{
+.hum.change span::before{
     content: "";
     position: absolute;
     left: 0;
@@ -65,7 +65,7 @@ header{
     transform: rotate(-36deg);
 }
 
-.ham.change span::after{
+.hum.change span::after{
     content: "";
     position: absolute;
     left: 0;

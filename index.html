@@ -13,12 +13,21 @@
 <body>
     <header>
         
-        <div class="hum">
+        <div class="hum change">
             <span></span>
         </div>
 
     </header>
-    
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $(".ham").click(function(){
+                $(".ham").toggleClass("change");
+            });
+
+        });
+    </script>
         
 </body>
 

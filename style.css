@@ -29,8 +29,8 @@ header{
 .hum span::before {
     content: "";
     display: block;
-    width: 80px;
-    height: 10px;
+    width: 70px;
+    height: 5px;
     background: #3fbff9;
     position: absolute;
     top: -8px;
@@ -39,8 +39,8 @@ header{
 .hum span::after {
     content: "";
     display: block;
-    width: 80px;
-    height: 10px;
+    width: 70px;
+    height: 5px;
     background: #3fbff9;
     position: absolute;
     top: 8px;

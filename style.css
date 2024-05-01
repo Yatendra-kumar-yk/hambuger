@@ -11,7 +11,7 @@ header{
 }
 .hum{
     width: 70px;
-    height: 100px;
+    height: 30px;
     background: transparent;
     cursor: pointer;
     border: none;
@@ -23,6 +23,7 @@ header{
     height: 5px;
     background-color: #000;
     left: 0px;
+    top:20px
 
 
 }
